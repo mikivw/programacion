@@ -34,6 +34,6 @@ main()
 		b=c;
 		printf("\nEl elemento %d de la serie es: %d",x,c);
 	}
-	puts("\n\nFin del programa");
+	puts("\n\n\nFin del programa");
 	getch();
 }

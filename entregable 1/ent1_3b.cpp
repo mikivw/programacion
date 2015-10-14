@@ -1,4 +1,4 @@
-//TURNO 24 – GRUPO ??
+//TURNO 24 – GRUPO 09
 //ENTREGABLE 1 – EJERCICIO 3a   
 //Miguel Vázquez Wilks
 //Diego Capilla Quirós
@@ -27,14 +27,14 @@ main()
 			scanf("%d",&n);
 		 }
 	}
-	printf("\nSelecciona que elementos de la serie deseas que se presenten:\n(En caso de no teclear un valor valido se presentaran todos)\n\n1. Pares \n2.Multiplos de 3 \n3.Multiplos de 5 \n4.Multiplos de 7\n\nElegir uno: ");
+	printf("\nSelecciona que elementos de la serie deseas que se presenten:\n(En caso de no teclear un valor valido se presentaran todos)\n\n1. Pares \n2. Multiplos de 3 \n3. Multiplos de 5 \n4. Multiplos de 7\n\nElegir uno: ");
 	scanf("%d",&m);
 	fflush(stdin);
 	switch(m)
           { 
              case 1:
 	         {
-                for(x=2;x<=n;x++)
+                for(x=2;x<=n;x++)// si el calculo de la serie se coloca fuera tendria que preguntar por cada elemento de la serie la opcion elegida, la manera mas optima seria con una funcion per nos dijo raul que nos las usaramos
 		        {
 		           c=b+a;
 			       a=b;
@@ -47,7 +47,7 @@ main()
 	         }break;	  
 	        case 2:
 		     {
-			   for(x=2;x<=n;x++)
+			   for(x=2;x<=n;x++)// si el calculo de la serie se coloca fuera tendria que preguntar por cada elemento de la serie la opcion elegida, la manera mas optima seria con una funcion per nos dijo raul que nos las usaramos
 			     {
 				   c=b+a;
 				   a=b;
@@ -60,7 +60,7 @@ main()
 		      }break;		
             case 3:
               {
-                for(x=2;x<=n;x++)
+                for(x=2;x<=n;x++)// si el calculo de la serie se coloca fuera tendria que preguntar por cada elemento de la serie la opcion elegida, la manera mas optima seria con una funcion per nos dijo raul que nos las usaramos
 			        {
 			        	c=b+a;
 			         	a=b;
@@ -73,7 +73,7 @@ main()
                }break;           
                 case 4:
                     {
-                       for(x=2;x<=n;x++)
+                       for(x=2;x<=n;x++)// si el calculo de la serie se coloca fuera tendria que preguntar por cada elemento de la serie la opcion elegida, la manera mas optima seria con una funcion per nos dijo raul que nos las usaramos
 			          {
 			        	c=b+a;
 			         	a=b;
@@ -87,7 +87,7 @@ main()
                default:
                   {
                   	printf("\nEl elemento 1 de la serie es: 1");
-                  for(x=2;x<=n;x++)
+                  for(x=2;x<=n;x++)// si el calculo de la serie se coloca fuera tendria que preguntar por cada elemento de la serie la opcion elegida, la manera mas optima seria con una funcion per nos dijo raul que nos las usaramos
 			          {
 			        	c=b+a;
 			         	a=b;
@@ -96,6 +96,6 @@ main()
                     	}
                    }
          }           
-           puts("\n\nFin del programa");
+           puts("\n\n\nFin del programa");
 	       getch();
 }
